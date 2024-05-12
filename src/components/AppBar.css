@@ -1,0 +1,32 @@
+/* AppBar.css */
+
+.app-bar {
+  width: calc(100% - 280px); /* Adjust width to accommodate Drawer */
+  height: 64px;
+  gap: 0px;
+  color: black; /* Set text color to black */
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 280px; /* Ensure it starts after Drawer */
+  z-index: 1; /* Set z-index lower than Drawer */
+  border-bottom: 1px solid #ccc; /* Add thin line below AppBar */
+}
+
+.notification-area {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Push to the right side */
+}
+
+.bell-icon {
+  margin-right: 10px; /* Adjust spacing between bell icon and avatar */
+}
+
+.avatar img {
+  width: 40px; /* Set width of avatar image */
+  height: 40px; /* Set height of avatar image */
+  border-radius: 50%; /* Make the avatar image circular */
+  margin-right: 10px; /* Adjust spacing between avatar and profile name */
+}

@@ -1,13 +1,40 @@
 /* Drawer.css */
 
 .drawer {
-    width: 280px;
-    height: 930px;
+    width: 230px;
+    height: 750px;
     gap: 0px;
-    opacity: 0;
+    border-radius: 0px 36px 36px 0px;
     background-color: maroon;
-    /* Add additional styling for closed drawer */
+    color: white;
+    z-index: 2;
   }
   
+  .drawer-content {
+    padding-top: 80px;
+    padding-left: 20px;
+  }
   
+ /* Drawer.css */
+
+.drawer-item {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px 0px 0px;
+    gap: 16px;
+    width: 240px;
+    height: 56px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 10px 0px 0px 0px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .drawer-item:hover {
+    background-color: #571a1a;
+  }
   

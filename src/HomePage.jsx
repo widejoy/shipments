@@ -1,16 +1,17 @@
 // HomePage.js
 
 import React from 'react';
-import Drawer from './components/drawer'; // Import your Drawer component
+import Drawer from './components/Drawer'; // Import your Drawer component
+import AppBar from './components/AppBar'; // Import your AppBar component
 
 const HomePage = () => {
   return (
-    <div>
-      <Drawer /> {/* Render the Drawer component */}
+    <div className="home-page">
       <div className="content">
-        <h1>Welcome to the Home Page</h1>
-        <p>This is a basic homepage component.</p>
+        <AppBar /> {/* Render the AppBar component */}
       </div>
+      <Drawer /> {/* Render the Drawer component */}
+      
     </div>
   );
 };

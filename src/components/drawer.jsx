@@ -7,26 +7,28 @@ import { FaChartLine, FaMoneyBillAlt, FaTruck, FaUser, FaArchive, FaHistory } fr
 const Drawer = () => {
   return (
     <div className="drawer">
-      <div className="drawer-item">
-        <FaChartLine /> Dashboard
-      </div>
-      <div className="drawer-item">
-        <FaMoneyBillAlt /> Analytics
-      </div>
-      <div className="drawer-item">
-        <FaTruck /> Rate Request
-      </div>
-      <div className="drawer-item">
-        <FaTruck /> Quote Shipments
-      </div>
-      <div className="drawer-item">
-        <FaUser /> User List
-      </div>
-      <div className="drawer-item">
-        <FaArchive /> Archive
-      </div>
-      <div className="drawer-item">
-        <FaHistory /> History
+      <div className="drawer-content">
+        <div className="drawer-item">
+          <FaChartLine className="icon" /> Dashboard
+        </div>
+        <div className="drawer-item">
+          <FaMoneyBillAlt className="icon" /> Analytics
+        </div>
+        <div className="drawer-item">
+          <FaTruck className="icon" /> Rate Request
+        </div>
+        <div className="drawer-item">
+          <FaTruck className="icon" /> Quote Shipments
+        </div>
+        <div className="drawer-item">
+          <FaUser className="icon" /> User List
+        </div>
+        <div className="drawer-item">
+          <FaArchive className="icon" /> Archive
+        </div>
+        <div className="drawer-item">
+          <FaHistory className="icon" /> History
+        </div>
       </div>
     </div>
   );
