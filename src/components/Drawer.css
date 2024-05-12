@@ -1,0 +1,13 @@
+/* Drawer.css */
+
+.drawer {
+    width: 280px;
+    height: 930px;
+    gap: 0px;
+    opacity: 0;
+    background-color: maroon;
+    /* Add additional styling for closed drawer */
+  }
+  
+  
+  
