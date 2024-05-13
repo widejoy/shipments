@@ -5,6 +5,7 @@ import './HomePage.css';
 import ThinWideCard from './components/ThinWideCard';
 import SinglePieCard from './components/SinglePieCard';
 import LocationStatsCard from './components/LocationStatsCard';
+import Shipments from './components/Shipments';
 
 export default function Analytics() {
   return (
@@ -33,6 +34,7 @@ export default function Analytics() {
           <LocationStatsCard title={"Shipper"} />
           <LocationStatsCard title={"Consignee"} />
           <LocationStatsCard title={"Carrier"} />
+          <Shipments />
         </div>
       </div>
     </div>
