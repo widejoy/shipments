@@ -8,7 +8,7 @@ const ThinWideCard = () => {
     <div className="thin-wide-card">
       <div className="card-content">
         <div className="card-section">
-          <span>Type:</span>
+          <span>Type</span>
           <select>
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
@@ -16,7 +16,7 @@ const ThinWideCard = () => {
           </select>
         </div>
         <div className="card-section">
-          <span>Date:</span>
+          <span>Date</span>
           <select>
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
@@ -24,7 +24,7 @@ const ThinWideCard = () => {
           </select>
         </div>
         <div className="card-section">
-          <span>Period:</span>
+          <span>Period</span>
           <select>
             <option value="option1">Option 1</option>
             <option value="option2">Option 2</option>
@@ -33,7 +33,7 @@ const ThinWideCard = () => {
         </div>
         <div className="card-buttons">
           <button className="cancel-button">Cancel</button>
-          <button className="ok-button">OK</button>
+          <button className="ok-button">GO</button>
         </div>
       </div>
     </div>

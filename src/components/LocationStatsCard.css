@@ -1,0 +1,38 @@
+/* LocationStatsCard.css */
+
+.location-stats-card {
+    background-color: #ffffff;
+    margin: 20px 20px 20px 0; /* Adjusted margin to align card to the start */
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 395px;
+  }
+  
+  .card-title {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .stats-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stats-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-bottom: 10px; /* Add padding to create space for the line */
+    border-bottom: 1px solid #ccc; /* Add a line after each item */
+  }
+  
+  .stats-item span {
+    font-size: 16px;
+  }
+  
+  .stats-item span:last-child {
+    font-weight: bold;
+  }
+  

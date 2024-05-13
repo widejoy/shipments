@@ -1,56 +1,63 @@
 /* ThinWideCard.css */
 
 .thin-wide-card {
-    width: 650px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .card-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  .card-section {
-    display: flex;
-    align-items: center;
-  }
-  
-  .card-section span {
-    margin-right: 10px;
-  }
-  
-  select {
-    padding: 8px;
-  }
-  
-  .card-buttons {
-    display: flex;
-    align-items: center;
-  }
-  
-  .cancel-button {
-    border: 2px solid #8B4513;
-    background-color: transparent;
-    color: #8B4513;
-    padding: 8px 16px;
-    border-radius: 4px;
-    margin-right: 10px;
-    cursor: pointer;
-  }
-  
-  .ok-button {
-    background-color: #8B4513;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .ok-button:hover {
-    background-color: #5C291B;
-  }
-  
+  width: 1350px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 55px;
+  margin-top: 20px;
+  font-family: Arial, sans-serif; /* Use a common font family */
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between; /* Add space between sections */
+}
+
+.card-section {
+  display: flex;
+  align-items: center;
+}
+
+.card-section span {
+  margin-right: 10px;
+  font-weight: bold; /* Make text bold */
+}
+
+select {
+  padding: 10px; /* Increase padding for dropdowns */
+  margin-right: 30px; /* Adjust margin for better spacing */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  border: 1px solid #ccc; /* Add border for clarity */
+  width: 250px;
+}
+
+.card-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.cancel-button {
+  border: 2px solid #8B4513;
+  background-color: transparent;
+  color: #8B4513;
+  padding: 10px 20px; /* Increase padding */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  margin-right: 20px; /* Adjust margin for better spacing */
+  cursor: pointer;
+}
+
+.ok-button {
+  background-color: #8B4513;
+  color: white;
+  padding: 10px 20px; /* Increase padding */
+  border-radius: 20px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+}
+
+.ok-button:hover {
+  background-color: #5C291B;
+}

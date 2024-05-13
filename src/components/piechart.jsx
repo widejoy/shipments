@@ -2,7 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Chart from 'chart.js/auto';
 
-const PieChart = ({ data }) => {
+const PieChart = ({data,isBottom=true}) => {
   const chartRef = useRef(null);
   let chartInstance = null;
 
@@ -24,7 +24,7 @@ const PieChart = ({ data }) => {
       options: {
         plugins: {
           legend: {
-            position: 'bottom',
+            position:isBottom?'bottom':'right',
             labels: {
                maxItemsPerLine: 1
             }
@@ -41,7 +41,7 @@ const PieChart = ({ data }) => {
   }, [data]);
 
   return (
-    <div className="pie-chart-container">
+    <div>
       <canvas ref={chartRef}></canvas>
     </div>
   );

@@ -26,8 +26,7 @@ const Shipments = () => {
         {shipments.map(shipment => (
           <li key={shipment.id}>
             Tracking Number: {shipment.trackingNumber}
-            {/* Render other shipment details as needed */}
-          </li>
+           </li>
         ))}
       </ul>
     </div>
