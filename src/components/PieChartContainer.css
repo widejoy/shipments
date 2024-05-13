@@ -1,0 +1,25 @@
+/* PieChartContainer.css */
+
+.pie-chart-container {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column; /* Adjust to column layout */
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 14px;
+}
+
+.chart-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 10px; /* Adjusted margins */
+  white-space: nowrap; /* Prevent multiline */
+}
+
+.chart-row {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}

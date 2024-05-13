@@ -4,10 +4,11 @@ import React from 'react';
 import { FaBell } from 'react-icons/fa';
 import './AppBar.css';
 
-const AppBar = () => {
+const AppBar = ({title = "Dashboard"}) => {
   return (
     <div className="app-bar">
-      <h1>Dashboard</h1>
+      <div style={{marginLeft:'60px'}}><h1>{title}</h1></div>
+      
       <div className="notification-area">
         <FaBell className="bell-icon" />
         <div className="avatar">

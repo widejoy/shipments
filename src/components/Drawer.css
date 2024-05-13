@@ -1,8 +1,8 @@
 /* Drawer.css */
 
 .drawer {
-    width: 230px;
-    height: 750px;
+    width: 210px;
+    height: 670px;
     gap: 0px;
     border-radius: 0px 36px 36px 0px;
     background-color: maroon;
@@ -11,7 +11,7 @@
   }
   
   .drawer-content {
-    padding-top: 80px;
+    padding-top: 120px;
     padding-left: 20px;
   }
   
@@ -22,7 +22,7 @@
     align-items: center;
     padding: 16px 0px 0px 0px;
     gap: 16px;
-    width: 240px;
+    width: 190px;
     height: 56px;
     cursor: pointer;
     font-family: Arial, sans-serif;

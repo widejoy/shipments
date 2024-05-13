@@ -1,0 +1,43 @@
+  .card {
+    width: 250px; /* Adjust card width to fit four cards in a row with spacing */
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 8px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 16px;
+    margin-right: 12px; /* Add margin between cards */
+    color: #000;
+    background-color: white;
+    margin-right: 68px;
+  }
+
+  .text-container {
+    flex-grow: 1;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  .subtitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+
+  .icon-container {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+  }
+
+  .icon {
+    font-size: 20px;
+    color: white;
+  }

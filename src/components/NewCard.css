@@ -1,0 +1,34 @@
+/* NewCard.css */
+
+.new-card {
+  width: 613px;
+  height: 325px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  align-items: center; /* Center content horizontally */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.new-card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: left; /* Align the text to the left */
+  align-self: flex-start; /* Align to the left */
+}
+
+.new-card-subtitle {
+  font-size: 16px;
+  text-align: left; /* Align the text to the left */
+  align-self: flex-start; /* Align to the left */
+}
+
+.new-card-image {
+  width: 30%; /* Reduce the width of the image */
+  height: auto;
+  margin-top: 20px;
+  align-self: center; /* Center the image horizontally */
+}

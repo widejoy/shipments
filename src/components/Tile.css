@@ -1,0 +1,62 @@
+/* Tile.css */
+
+.tile-card {
+  width: 613px;
+  height: 50px; /* Increase height as needed */
+  padding: 10px;
+  border-radius: 8px;
+  background-color: white;
+  justify-content: center;
+}
+
+.tile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px; /* Add padding-bottom to create space between content and line */
+  border-bottom: 1px solid #ccc; /* Add border-bottom to create a line after each tile */
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.pdf-icon {
+  margin-right: 15px; /* Increased margin for better spacing */
+  color: #ff5733; /* Change color as per your preference */
+  font-size: 24px; /* Increased font size */
+}
+
+.title-subtitle {
+  display: flex;
+  flex-direction: column; /* Display subtitle under the title */
+}
+
+.tile-title {
+  font-size: 24;
+  font-weight: bold;
+  margin-bottom: 6px; /* Add margin between title and subtitle */
+}
+
+.tile-subtitle {
+  margin-top: 4px;
+  font-size: 16px; /* Adjust font size of subtitle */
+}
+
+.right-section {
+  text-align: right;
+}
+
+.date-time {
+  display: flex;
+  flex-direction: column; /* Display date under the time */
+}
+
+.date {
+  font-size: 14px;
+}
+
+.time {
+  font-size: 14px;
+}

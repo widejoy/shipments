@@ -1,0 +1,26 @@
+/* DocumentCard.css */
+
+.document-card-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+ }
+
+.document-card {
+  background-color: white;
+  margin-right: 30px;
+  width: 613px; /* Adjust width as needed */
+  padding: 20px;
+   border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.document-card-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.tiles-container {
+  display: flex;
+  flex-direction: column;
+}

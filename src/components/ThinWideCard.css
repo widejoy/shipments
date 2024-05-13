@@ -1,0 +1,56 @@
+/* ThinWideCard.css */
+
+.thin-wide-card {
+    width: 650px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .card-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-section span {
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+  }
+  
+  .card-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cancel-button {
+    border: 2px solid #8B4513;
+    background-color: transparent;
+    color: #8B4513;
+    padding: 8px 16px;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .ok-button {
+    background-color: #8B4513;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ok-button:hover {
+    background-color: #5C291B;
+  }
+  
